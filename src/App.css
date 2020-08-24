@@ -8,9 +8,36 @@ body {
   padding: 2rem;
 }
 
-button {
-  margin: 2rem;
+.profile {
+  display: inline-flexbox;
+  background-color: lightgoldenrodyellow;
+  margin: 2rem 0;
+}
+/* button {
+  margin: 2rem auto;
   padding: 1rem 2rem;
   width: 120px;
   cursor: pointer;
+} */
+
+button {
+  display: inline-block;
+  padding: 1rem 2rem;
+  margin-top: 1rem;
+  font-weight: normal;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  border-radius: 4px;
+
+  user-select: none;
+  color: #ffffff;
+  background-color: #428bca;
+  border-color: #357ebd;
 }
